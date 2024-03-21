@@ -1,0 +1,109 @@
+
+.dashboard .table{
+    padding: 2rem;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.dashboard .table .sp{
+    color: white;
+    background-color: #4882c6;
+    padding: 5px;
+    /* height: 200px; */
+    border-radius: 10px;
+    text-align: center;
+    flex-grow: 1;
+
+}
+.dashboard .table .sp:hover{
+    box-shadow: 0px 0px 5px 0px grey;
+    cursor: pointer;
+}
+.dashboard .table .sp p {
+    font-size: 20px; /* Reduce font size for button labels */
+    text-align: center;
+    font-weight: bold;
+    font-family: "Bebas Neue", cursive;
+}
+.dashboard .table .kh{
+    background-color: khaki;
+}
+.dashboard .table .dm{
+    background-color: rgb(35, 83, 37);
+}
+.dashboard .table .dh{
+    background-color: rgb(170, 52, 52);
+}
+.dashboard .table .nd{
+    background-color: #932dc2;
+}
+.dashboard .table .sp>p{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    /* font-family: "Encode Sans SC", sans-serif; */
+    font-family: "Bebas Neue", cursive;
+
+}
+.dashboard .table .sp span{
+    text-align: center;
+    font-size: 35px;
+    padding: 2rem 0;
+    font-family: "Bebas Neue", cursive;
+}
+.dashboard .table .sp p>a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition:  all 0.3s;
+}
+.dashboard .table .sp:hover p>a{
+    font-size: 17px;
+}
+
+main .new-order{
+
+}
+/* Định dạng lại bảng */
+table {
+    font-size: 20px; /* Điều chỉnh kích thước chữ ở đây */
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Định dạng lại hàng và ô */
+table tr {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+table tr.bold{
+    font-weight: bold;
+}
+table tr td {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+ #wrapper{
+    padding-bottom: 5rem;
+}
+.b-500 {
+font-weight: 500;
+}
+
+.red {
+color: red;
+}
+
+.green {
+    color: green;
+}
+.nav-link {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+main h1 {
+    text-align: center;
+}
